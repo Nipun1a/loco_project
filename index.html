@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main"  data-scroll-container> <!-- this is the main div don't give height and width to it -->
+        <div id="page1"></div>
+        <div id="page2" data-scroll>
+            <img data-scroll data-scroll-speed="5" data-scroll-direction="horizontal" src="red.jpg" alt="img">
+        </div>
+        <div id="page3"></div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
